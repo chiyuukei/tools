@@ -28,3 +28,8 @@ a:hover {
 .footer {
     border-top: 1px solid #333;
 }
+
+::selection {
+	background: #EBCCFF;
+	color: #222;
+}
