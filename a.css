@@ -3,7 +3,8 @@
 body {
     background: #FDFAFF;
     font-family: Courier New;
-    margin: 12px;
+    margin: 12px auto;
+    max-width: 800px;
     left: 0;
     right: 0;
     color: #222;
