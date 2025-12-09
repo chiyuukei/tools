@@ -3,9 +3,9 @@
 body {
     background: #FDFAFF;
     font-family: Courier New;
-    margin: 0;
+    margin: 12px;
     color: #222;
-    padding: 10px;
+    padding: 0;
 }
 
 h2 {
@@ -15,11 +15,14 @@ h2 {
 h2 a {
     text-decoration: none;
     color: #222;
+    cursor: none;
     user-select: none;
 }
 
 h2 a:hover {
     text-decoration: none;
+    color: #9800FF;
+    border: none;
 }
 
 p {
