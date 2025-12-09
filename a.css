@@ -2,6 +2,7 @@
 
 body {
     background: #FDFAFF;
+    box-sizing: border-box;
     font-family: Courier New;
     margin: 15px;
     left: 0;
