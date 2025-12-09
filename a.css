@@ -35,6 +35,7 @@ p {
 
 a {
     color: #9800FF;
+    cursor: none;
     text-decoration: none;
 }
 
