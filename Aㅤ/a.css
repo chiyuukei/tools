@@ -2,10 +2,14 @@
 
 body {
     background: #FDFAFF;
+    box-sizing: border-box;
     font-family: Courier New;
-    margin: 12px;
+    /*margin: 15px;*/
+    max-width: 900px;
+    margin: 15px auto;
+    padding: 0 20px; 
     color: #222;
-    padding: 0;
+    /*padding: 0;*/
 }
 
 h2 {
@@ -30,19 +34,3 @@ p {
 }
 
 a {
-    color: #9800FF;
-    text-decoration: none;
-}
-
-a:hover {
-    border-bottom: 1px solid #9800FF;
-}
-
-.footer {
-    border-top: 1px solid #333;
-}
-
-::selection {
-    background: #EBCCFF;
-    color: #222;
-}
