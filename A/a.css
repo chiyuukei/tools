@@ -55,3 +55,33 @@ a:hover {
     background: #EBCCFF;
     color: #222;
 }
+
+input,
+button {
+    padding: 5px 5px;
+    box-sizing: border-box;
+    border: 1px solid #7b1e7a;
+    outline: none;
+}
+
+input {
+    background: #FAF3FF;
+    border-radius: 5px;
+    color: #601E7B;
+    width: 200px;
+}
+
+input:focus {
+    text-decoration: none;
+}
+
+button {
+    background: #9000C9;
+    border-radius: 10px;
+    color: #EEE3FF;
+    cursor: none;
+}
+
+button:hover {
+    background: #9B00D8;
+}
