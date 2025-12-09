@@ -4,8 +4,10 @@ body {
     background: #FDFAFF;
     font-family: Courier New;
     margin: 12px;
+    left: 0
+    right: 0;
     color: #222;
-    padding: 0;
+    padding: 2;
 }
 
 h2 {
