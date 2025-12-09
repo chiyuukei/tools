@@ -12,6 +12,16 @@ h2 {
     font: bolder 24px "Noto Sans JP", sans-serif;
 }
 
+h2 a {
+    text-decoration: none;
+    color: #222;
+    user-select: none;
+}
+
+h2 a:hover {
+    text-decoration: none;
+}
+
 p {
     font: lighter 15px "Noto Sans JP", sans-serif;
 }
