@@ -27,6 +27,8 @@ h2 a:hover {
     text-decoration: none;
     color: #9800FF;
     border: none;
+    color: inherit;
+    background: #F3ECFF;
 }
 
 p {
@@ -41,6 +43,8 @@ a {
 
 a:hover {
     border-bottom: 1px solid #9800FF;
+    color: inherit;
+    background: #F3ECFF;
 }
 
 .footer {
