@@ -21,6 +21,7 @@ h2 a {
     color: #222;
     cursor: none;
     user-select: none;
+    background: none;
 }
 
 h2 a:hover {
@@ -28,7 +29,6 @@ h2 a:hover {
     color: #9800FF;
     border: none;
     color: inherit;
-    background: #F3ECFF;
 }
 
 p {
