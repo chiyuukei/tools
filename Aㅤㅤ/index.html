@@ -1,1 +1,46 @@
-
+<!DOCTYPE HTML>
+<html class="scroll-smooth" lang="JP" data-theme="night" translate="no">
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./a.css" />
+    <link rel="icon" type="image/x-icon" href="//chiyuukei.github.io/tools/icon/icon.jpg" />
+    <title>インフォルマシ・ペングナ・ディコード ≽^• ˕ • ྀི≼</title>
+    </head>
+    <body>
+        <h2><a href="/tools/">←</a></h2>
+        <h2>Discord ユーザー情報 >⩊<</h2>
+        <p>このツールは、Discord ユーザーからの情報を見つけるのに役立ちます。情報は十分に機密ではありませんが、直接チェックすることなく即座にチェックするのに非常に適しています。</p>
+        <p>TikTok タイムスタンプと同様に、入力した ID が有効な場合、このツールは通常どおり機能します。一方、入力した ID が関連性がない場合、情報の精度も低下します。</p>
+        <p>外観の点ではかなり奇妙に見えたり、反応性が低いように見えるかもしれませんが、私にとって最も重要なことは美学ではなく機能と結果であることは問題ではありません。</p>
+        <p>ああ、最後に最初にアカウントの開発者モードをアクティブにして、ターゲット アカウントの ID を見つけます。</p>
+        <input placeholder="Discord ID" type="text" id="target-id">
+        <button onclick="validateAndFetch()">魔法を使え</button>
+        <br />
+        <br />
+        <span>作我日 (12H）:</span> <span id="i-date12"></span><br />
+        <span>作我日 (24H）:</span> <span id="i-date24"></span><br />
+        <span>あなたのタイムゾーン:</span> <span id="i-timezone"></span><br />
+        <span>タイムアゴ:</span> <span id="i-timeago"></span><br />
+        <span>Unixタイムスタンプ:</span> <span id="i-timestamp"></span><br />
+        <span>ユーザー名:</span> <span id="i-username"></span><br />
+        <span>表示名:</span> <span id="i-displayname"></span><br />
+        <span>バナー:</span> <span id="i-banner"></span><br />
+        <span>ニトロタイプ:</span> <span id="i-nitro"></span><br />
+        <span>ユーザーフラグ:</span> <span id="i-flags"></span><br />
+        <span><アパカボット:</span> <span id="i-bot"></span><br />
+        <br />
+        <center><span id="i-pfp"></span></center>
+        <br />
+        <div class="footer">
+            <p>
+                &copy;&nbsp;<script>
+                    document.write(new Date().getFullYear())
+                </script>&nbsp;<a href="//github.com/chiyuukei">狂った錬金術師</a>.&nbsp;無断転載を禁じます。
+            </p>
+        </div>
+        <script src="https://momentjs.com/downloads/moment.min.js"></script>
+        <script src="https://momentjs.com/downloads/moment-timezone-with-data-10-year-range.min.js"></script>
+        <script src="./a.js"></script>   
+    </body>
+</html>
