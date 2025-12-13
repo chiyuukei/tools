@@ -91,7 +91,7 @@ button:hover {
     box-shadow: 0px 0px 0px 4px;
 }
 
-.lol {
+#result {
     box-sizing: border-box;
     font-size: 15px;
     color: #222;
