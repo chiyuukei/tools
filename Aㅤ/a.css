@@ -81,6 +81,7 @@ button {
     background: #9000C9;
     border-radius: 10px;
     color: #EEE3FF;
+    user-select: none;
     cursor: none;
 }
 
@@ -88,4 +89,12 @@ button:hover {
     background: #9B00D8;
     transition: 0.3s;
     box-shadow: 0px 0px 0px 4px;
+}
+
+.lol {
+    box-sizing: border-box;
+    font-size: 15px;
+    color: #222;
+    text-align: left;
+    overflow-wrap: break-word;
 }
